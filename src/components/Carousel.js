@@ -10,7 +10,7 @@ export default function About() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="100">
-      <img src="Usman.png" className="d-block w-100" alt="No Image"/>
+      <img src="usman.png" className="d-block w-100" alt="No Image"/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Uthman made this app for you.</h5>
         <p className= 'carousel-p'>My name is Usman Khan I am a web designer.</p>
