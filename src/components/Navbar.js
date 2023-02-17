@@ -4,7 +4,7 @@ export default function Navbar(props) {
 
   return (
 <nav className={`navbar navbar-expand-lg navbar-${props.mode === 'dark'?'light':'dark'} bg-${props.mode ==='dark'?'light':'dark'} `}>
-    <a className="navbar-brand" href="/"><img className='myLogImg' src="https://yt3.googleusercontent.com/l2IF9FZ2jH13IcDgMRBwLsVMYZSHSGPW0qY2_xrTT8XOIzNmYkRN627LtEx1gh4HKFCXlNFgUAE=s88-c-k-c0x00ffffff-no-rj" alt="" /></a>
+    <a className="navbar-brand" href="https://www.facebook.com/profile.php?id=100087193727332"><img className='myLogImg' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiJt671WjUo4VBgjSgM89rcSm7OfOTvNEhfBH8NraSQ2fh-W_BazjO38m_elj-5Up2d04&usqp=CAU" alt="" /></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
