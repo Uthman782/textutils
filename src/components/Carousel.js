@@ -1,5 +1,7 @@
 // import React, { useState } from 'react'
 import React from 'react'
+import pic from "./usman1.jpg";
+
 export default function About() {
     return <div className='w-100'>
         <div id="carouselExampleDark" className="carousel carousel-dark slide">
@@ -10,7 +12,7 @@ export default function About() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="100">
-      <img src="https://miro.medium.com/max/1400/1*nSJQu_YaOpdB-mlHPKt8cg.jpeg" className="d-block w-100" alt="No Image"/>
+      <img src={pic} className="d-block w-100" alt="No Image"/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Uthman made this app for you.</h5>
         <p className= 'carousel-p'>My name is Usman Khan I am a web designer.</p>
